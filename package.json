@@ -1,0 +1,17 @@
+{
+  "name": "srpc-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "piliponful <piliponful@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "standard": "^14.3.3"
+  }
+}
