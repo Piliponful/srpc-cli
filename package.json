@@ -18,12 +18,13 @@
     "srpc": "./index.js"
   },
   "scripts": {
-    "start": "node -r esm index",
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "esm": "^3.2.25",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
     "standard": "^14.3.3"
   }
 }
