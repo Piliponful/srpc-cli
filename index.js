@@ -25,8 +25,6 @@ const url = urlArg.replace(`${urlId}=`, '')
 const functionName = functionNameArg.replace(`${functionNameId}=`, '')
 const functionArguments = JSON.parse(functionArgumentsArg.replace(`${functionArgumentsId}=`, ''))
 
-console.log(url, functionName, functionArguments)
-
 fetch(url, { method: 'post', body: JSON.stringify({ functionName, functionArguments }) })
   .then(response => response.json())
   .then(console.log)
