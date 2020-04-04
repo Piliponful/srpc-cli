@@ -12,7 +12,7 @@
 
 
 ## Overview
-CLI client for [I'm an inline-style link](https://github.com/piliponful/srpc-framework)
+CLI client for [srpc-framework](https://github.com/piliponful/srpc-framework)
 
 ## Usage
 1. `npm i -g srpc-cli`
