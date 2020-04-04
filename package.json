@@ -1,7 +1,18 @@
 {
   "name": "srpc-cli",
+  "description": "Next generation web framework which will provide a flexability modern web app need",
+  "author": "piliponful@gmail.com",
+  "keywords": [
+    "web",
+    "app",
+    "http",
+    "application",
+    "framework",
+    "middleware",
+    "rack"
+  ],
+  "repository": "piliponful/srpc-framework",
   "version": "1.0.1",
-  "description": "",
   "main": "index.js",
   "bin": {
     "srpc": "./index.js"
@@ -10,9 +21,6 @@
     "start": "node -r esm index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "piliponful <piliponful@gmail.com>",
-  "license": "ISC",
   "dependencies": {
     "esm": "^3.2.25",
     "node-fetch": "^2.6.0",
