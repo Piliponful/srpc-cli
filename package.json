@@ -12,7 +12,7 @@
     "rack"
   ],
   "repository": "piliponful/srpc-framework",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index.js",
   "bin": {
     "srpc": "./index.js"
