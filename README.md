@@ -16,4 +16,4 @@ CLI client for [srpc-framework](https://github.com/piliponful/srpc-framework)
 
 ## Usage
 1. `npm i -g srpc-cli`
-2. `srpc --url=localhost:3000 --functionName=saveMessage --functionArguments={ "content": "test" }`
+2. `srpc --url=http://localhost:3000 --method=saveMessage --params={ "content": "test" }`
